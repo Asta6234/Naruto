@@ -52,8 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Naruto Uzumaki here!!!
-Dattebayo!!
+Watashi was Uzumaki Naruto dattebayo!
 
 Use /help to know my ninja skills.
 """
