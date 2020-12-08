@@ -52,16 +52,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Welcome user:* {}, *002 Online Codename: {}!* 
+Naruto Uzumaki here!!!
+Dattebayo!!
 
-*〔Status〕*
-*Classification*: _Parasite_
-*Affiliation*: _APE's Special Forces Unit_
-*Occupation*: _FRANXX Pilot (Pistil)_
-*Partner*: _Hiro_
-*FRANXX*: _Strelizia_ 
-
-Use /help to know my abilities [^_^](https://images.alphacoders.com/901/901812.png).
+Use /help to know my ninja skills.
 """
 
 HELP_STRINGS = """
@@ -83,10 +77,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://images.alphacoders.com/901/901812.png" #"https://telegra.ph/file/ff21a6f2a29ac89932368.jpg"
+SAITAMA_IMG = "https://images7.alphacoders.com/303/thumb-1920-303042.png" #"https://telegra.ph/file/ff21a6f2a29ac89932368.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Zero Two is basically a forked version of Saitama, so there is no needs of funding for me right now. But\
+Naruto is basically a forked version of Saitama, so there is no needs of funding for me right now. But\
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
@@ -206,25 +200,9 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Zero Two to your group",
+                            text="☑️ Add Naruto to your group",
                             url="t.me/{}?startgroup=true".format(
-                                context.bot.username))
-                    ],
-                     [
-                         InlineKeyboardButton(
-                             text="Franxx Health System",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="🧾 Setup Protocol",
-                             url="https://t.me/ZeroTwoUpdates/13")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="🗄 Source code",
-                             url="https://github.com/ninja7-bot/ZeroTwoRepo")
-
+                                context.bot.username))                
                      ]]))
     else:
         update.effective_message.reply_text(
