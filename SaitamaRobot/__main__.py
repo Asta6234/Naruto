@@ -205,7 +205,7 @@ def start(update: Update, context: CallbackContext):
                      ]]))
     else:
         update.effective_message.reply_text(
-            "Summoned me!?".format(uptime),
+            "Wassup!!?".format(uptime),
             parse_mode=ParseMode.HTML)
 
 
