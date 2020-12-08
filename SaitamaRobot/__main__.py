@@ -51,7 +51,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START = """
+PM_START_TEXT = """
 Naruto Uzumaki here!!!
 Dattebayo!!
 
