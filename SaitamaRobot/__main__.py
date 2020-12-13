@@ -53,6 +53,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Watashi was Uzumaki Naruto dattebayo!
+[Source Code](https://www.github.com/Asta6234/ZeroTwoRepo/)
 
 Use /help to know my ninja skills.
 """
