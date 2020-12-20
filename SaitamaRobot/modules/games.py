@@ -31,17 +31,18 @@ def tord(update: Update, context: CallbackContext):
 def wyr(update: Update, context: CallbackContext):
     update.effective_message.reply_text(random.choice(fun_strings.WYR_STRINGS))
 
+
 __help__ = """
  • `/truth`*:* asks you a question
  • `/dare`*:* gives you a dare
  • `/tord`*:* can be a truth or a dare
- • `/wyr`*:* would you rather
+ • `/rather`*:* would you rather
   """
 
 TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth)
 DARE_HANDLER = DisableAbleCommandHandler("dare", dare)
 TORD_HANDLER = DisableAbleCommandHandler("tord", tord)
-WYR_HANDLER = DisableAbleCommandHandler("wyr", wyr)
+WYR_HANDLER = DisableAbleCommandHandler("rather", wyr)
 
 dispatcher.add_handler(TRUTH_HANDLER)
 dispatcher.add_handler(DARE_HANDLER)
@@ -50,9 +51,9 @@ dispatcher.add_handler(WYR_HANDLER)
 
 __mod_name__ = "Games"
 __command_list__ = [
-   "truth", "dare", "tord", "wyr"
+   "truth", "dare", "tord", "rather",
 ]
 
 __handlers__ = [
-    TRUTH_HANDLER, DARE_HANDLER, TORD_HANDLER, WYR_HANDLER
+    TRUTH_HANDLER, DARE_HANDLER, TORD_HANDLER, WYR_HANDLER,
 ]

@@ -494,6 +494,7 @@ def __user_info__(user_id):
     return result
 
 
+
 __help__ = """
 *ID:*
  • `/id`*:* get the current group id. If used by replying to a message, gets that user's id.
