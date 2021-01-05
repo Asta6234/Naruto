@@ -6,14 +6,14 @@ from telegram import ParseMode
 from telegram.ext import (run_async,
                           Filters, CommandHandler)
 
-from Mizuhararobot import dispatcher, REDIS
-from Mizuhararobot.modules.disable import DisableAbleCommandHandler
-from Mizuhararobot.modules.helper_funcs.chat_status import (
+from SaitamaRobot import dispatcher, REDIS
+from SaitamaRobot.modules.disable import DisableAbleCommandHandler
+from SaitamaRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     user_admin
 )
-from Mizuhararobot.modules.helper_funcs.extraction import extract_user_and_text
-from Mizuhararobot.modules.helper_funcs.alternate import typing_action
+from SaitamaRobot.modules.helper_funcs.extraction import extract_user_and_text
+from SaitamaRobot.modules.helper_funcs.alternate import typing_action
 
 
 
