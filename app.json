@@ -152,7 +152,12 @@
       "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
          "required": false,
          "value": ""
-   },      
+   },
+      "REDIS_URL": {
+         "description": "Add on Redis Cloud and change the REDISCLOUD Var to REDIS_URL."
+         "required": false,
+         "value": "redis://default:password@localhost:xxxx"
+      },
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
