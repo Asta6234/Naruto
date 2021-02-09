@@ -349,7 +349,7 @@ def adminlist(update, context):
             'Fetching group admins...', parse_mode=ParseMode.MARKDOWN)
     except BadRequest:
         msg = update.effective_message.reply_text(
-            'Fetching group admins...',
+            'Extracting Admin Details....',
             quote=False,
             parse_mode=ParseMode.MARKDOWN)
 
@@ -378,13 +378,13 @@ def adminlist(update, context):
         #if user.username:
         #    name = escape_markdown("@" + user.username)
         if status == "creator":
-            text += "\n Creator:"
-            text += "\n` ❖ `{}\n".format(name)
+            text += "\n 💠 Creator:"
+            text += "\n` ⎔ `{}\n".format(name)
 
             if custom_title:
                 text += f" ┗━ `{escape_markdown(custom_title)}`\n"
 
-    text += "\n Member of Nines:"
+    text += "\n 🌀 Member of Nines:"
 
     custom_admin_list = {}
     normal_admin_list = []
@@ -412,11 +412,11 @@ def adminlist(update, context):
                 normal_admin_list.append(name)
 
     for admin in normal_admin_list:
-        text += "\n` ◈ `{}".format(admin)
+        text += "\n` ⦿ `{}".format(admin)
 
     for admin_group in custom_admin_list.copy():
         if len(custom_admin_list[admin_group]) == 1:
-            text += "\n` ◈ `{} | `{}`".format(custom_admin_list[admin_group][0],
+            text += "\n` ◉ `{} | `{}`".format(custom_admin_list[admin_group][0],
                                               escape_markdown(admin_group))
             custom_admin_list.pop(admin_group)
 
@@ -427,9 +427,9 @@ def adminlist(update, context):
             text += "\n` • `{}".format(admin)
         text += "\n"
 
-    text += "\n Bots:"
+    text += "\n🤖 Bots:"
     for each_bot in bot_admin_list:
-        text += "\n` • `{}".format(each_bot)
+        text += "\n` » `{}".format(each_bot)
 
     try:
         msg.edit_text(text, parse_mode=ParseMode.MARKDOWN)
@@ -439,7 +439,6 @@ def adminlist(update, context):
 
 __help__ = """
  • `/admins`*:* list of admins in the chat
-
 *Admins only:*
  • `/pin`*:* silently pins the message replied to - add `'loud'` or `'notify'` to give notifs to users.
  • `/unpin`*:* unpins the currently pinned message
