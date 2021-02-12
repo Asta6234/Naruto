@@ -56,7 +56,7 @@ Hey there {}-kun. I am {}. I'll be helping you out in maintaining your groups.
 """
 
 HELP_STRINGS = """
-Miku at your service {}-kun.
+Naruto at your service {}-kun.
 I can help you with following functions in managing group.
 
 *Main* commands available:
@@ -74,7 +74,8 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://wallpapercave.com/wp/wp4124908.png"
+SAITAMA_IMG = "https://wallpapercave.com/w/wp8526387.png"
+://wallpapercave.com/wp/wp4124908.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
