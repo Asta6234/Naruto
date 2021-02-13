@@ -77,7 +77,7 @@ And the following:
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 SAITAMA_IMG = "https://wallpapercave.com/wp/valtU3c.jpg"
-://wallpapercave.com/wp/wp4124908.png"
+#//wallpapercave.com/wp/wp4124908.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
