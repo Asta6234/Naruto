@@ -74,7 +74,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://wallpapercave.com/w/wp8526387.png"
+SAITAMA_IMG = "https://wallpapercave.com/wp/valtU3c.jpg"
 ://wallpapercave.com/wp/wp4124908.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
