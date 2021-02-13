@@ -52,7 +52,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey there {}-kun. I am {}. I'll be helping you out in maintaining your groups.
+Watashi wa {}, Dattebayo {}.
+
+I'm here to help you keep your group safe, try out my health section.
 """
 
 HELP_STRINGS = """
