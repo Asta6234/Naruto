@@ -199,7 +199,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Miku to your group",
+                            text="☑️ Add Naruto to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
@@ -216,7 +216,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="Help",
-                             url="http://t.me/MissMikuNakanoBot?start=help")
+                             url="http://t.me/NarutoUzumakiRobot?start=help")
                      ],                      
                      [
                          InlineKeyboardButton(
