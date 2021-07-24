@@ -1,5 +1,5 @@
-![Zero Two](https://images7.alphacoders.com/898/898638.jpg)
-# Zero Two Robot
+![Miku Nakano](https://images7.alphacoders.com/898/898638.jpg)
+# Miku Nakano Robot
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51)](https://app.codacy.com/gh/AnimeKaizoku/SaitamaRobot?utm_source=github.com&utm_medium=referral&utm_content=AnimeKaizoku/SaitamaRobot&utm_campaign=Badge_Grade_Settings)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
 
@@ -11,7 +11,7 @@ Zero Two can be found on Telegram as [Miku](https://t.me/@MissMikuNakanobot).
 
 The Support group can be reached out to at [Support Group](https://t.me/OtakuGroup123), where you can ask for help about @MissZeroTwoBot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [Franxx Updates](https://https://t.me/zerotwoupdates) 
+News channel as at [Miku Updates](https://https://t.me/zerotwoupdates) 
 
 ## How to setup/deploy.
 
