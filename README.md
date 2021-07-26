@@ -9,9 +9,9 @@ Zero Two is based on Saitama which is originally based on Marie.
 
 Zero Two can be found on Telegram as [Miku](https://t.me/@MissMikuNakanobot).
 
-The Support group can be reached out to at [Support Group](https://t.me/OtakuGroup123), where you can ask for help about @MissZeroTwoBot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Support Group](https://t.me/miku_nakano_support), where you can ask for help about @MissZeroTwoBot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [Miku Updates](https://t.me/@Shinobi_updates) 
+News channel as at [Miku Updates](https://t.me/Shinobi_updates) 
 
 ## How to setup/deploy.
 
@@ -212,4 +212,4 @@ Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (wil
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [Miku Updates](https://t.me/miku_nakano_support) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [Miku Support](https://t.me/miku_nakano_support) or simply submit a pull request on the readme.
