@@ -33,13 +33,13 @@ Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ninja7-bot/ZeroTwoRepo)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Asta6234/Naruto)
 
 </details>  
 <details>
   <summary>Steps to self Host!! </summary>
 
-Note: This instruction set is just a copy-paste from Marie, note that [Franxx Association](https://t.me/Zerotwosupport) aims to handle support for @Zero2Robot and not how to set up your own fork. If you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to set up the bot instance in the support chat, it aims to help our own instance of the bot and not the forks.
+Note: This instruction set is just a copy-paste from Marie, note that [Konohagukure](https://t.me/KonohagakureChat) aims to handle support for @NarutoUzumakiRobot and not how to set up your own fork. If you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to set up the bot instance in the support chat, it aims to help our own instance of the bot and not the forks.
 
   ## Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older Python versions!
@@ -199,7 +199,7 @@ You can use [nssm](https://nssm.cc/usage) to install the bot as service on windo
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Franxx Association](https://https://t.me/zerotwosupport)
+For queries or any issues regarding bot please open an issue ticket or visit us at [Konohagukure](https://https://t.me/KonohagakureChat)
 ## How to setup on Heroku 
 For starters click on this button 
 </details>  
