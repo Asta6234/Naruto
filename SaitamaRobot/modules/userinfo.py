@@ -225,7 +225,7 @@ def info(update: Update, context: CallbackContext):
         return
 
     rep = message.reply_text(
-        "<code>Accessing Franxx Database...</code>", parse_mode=ParseMode.HTML)
+        "<code>Searching on my database...</code>", parse_mode=ParseMode.HTML)
 
     text = (f"╔═══〔<b> Status:</b> 〕\n"
             f"ID: <code>{user.id}</code>\n"
@@ -275,7 +275,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThreat Level: 'MAXIMUM'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Franxx Health System'."
+        text += "\n\nThis user is member of 'Nakano Association'."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nThreat Level: 'SSS RANK'."
